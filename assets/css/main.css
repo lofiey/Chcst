@@ -314,7 +314,25 @@ a:hover
     background: #0f33ec;
 }
 
+.hero .background-content .background-img
+{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
 
+    width: 100%;
+    height: 100%;
+
+    -webkit-transition: opacity 1s ease;
+         -o-transition: opacity 1s ease;
+            transition: opacity 1s ease;
+
+    opacity: 0;
+    background: url(https://chcst.imfast.io/chcst/img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
 /* Page Enter Animation */
