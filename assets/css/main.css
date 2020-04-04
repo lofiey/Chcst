@@ -329,7 +329,7 @@ a:hover
             transition: opacity 1s ease;
 
     opacity: 0;
-    background: url(https://chcst.imfast.io/chcst/img/background.jpg);
+    background: url(https://cdn.jsdelivr.net/gh/lofiey/file@story/chcst/img/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
